@@ -15,7 +15,7 @@
 
 
 #### 技术选型
-Spring Boot + JPA + Ehcache + Lucene
+Springboot + shiro + JWT + JPA
 
 <br><br>
 #### 使用平台
