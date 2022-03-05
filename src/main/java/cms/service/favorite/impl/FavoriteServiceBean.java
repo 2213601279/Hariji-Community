@@ -25,7 +25,7 @@ import net.sf.cglib.beans.BeanCopier;
 
 /**
  * 收藏夹
- *
+ *实现收藏操作的一系列
  */
 @Service
 @Transactional
