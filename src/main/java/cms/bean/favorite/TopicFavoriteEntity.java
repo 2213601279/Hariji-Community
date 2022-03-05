@@ -88,6 +88,4 @@ public class TopicFavoriteEntity implements Serializable{
 		this.postUserName = postUserName;
 	}
 	
-	
-	
 }

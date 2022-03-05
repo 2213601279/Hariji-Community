@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * Zip 打包
+ * 暂且不在升级范畴内
  *
  */
 public class ZipPack implements Serializable{
