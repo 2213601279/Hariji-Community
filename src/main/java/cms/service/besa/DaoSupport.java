@@ -62,7 +62,10 @@ public abstract class DaoSupport<T> implements DAO<T>{
 	 * @param entityId 实体id
 	 * @return 返回值T
 	 */
-	//查看内容的方法不需要开事务,用Transactional这个方法来修改事务行为;readOnly=true设置只读属性,即这个方法不能出现更改动作;propagation=Propagation.NOT_SUPPORTED设置事务传播行为,即执行这个方法不需开启事务
+	//由于编写的是获取实体类型，所以我们悲观，不允许修改来改变事务行为
+	//查看内容的方法不需要开事务,用Transactional这个方法来修改事务行为;
+	// readOnly=true设置只读属性,即这个方法不能出现更改动作;
+	// propagation=Propagation.NOT_SUPPORTED设置事务传播行为,即执行这个方法不需开启事务
 	@Transactional(readOnly=true,propagation=Propagation.NOT_SUPPORTED)
 	public <T> T find(Class<T> entityClass, Object entityId) {
 
