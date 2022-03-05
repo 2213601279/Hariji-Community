@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 前台错误提示
- *
+ *枚举细化异常类型
  */
 public enum ErrorView {
 	

@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * 返回请求结果
- * @author Gao
+ * 设置状态码
  *
  */
 public class RequestResult implements Serializable{

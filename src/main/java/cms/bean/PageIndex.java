@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * 分页计算页码算法实体类
- *
+ *添加分页索引
  */
 public class PageIndex implements Serializable{
 	private static final long serialVersionUID = 951975034310230621L;

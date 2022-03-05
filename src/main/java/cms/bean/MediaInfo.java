@@ -4,7 +4,8 @@ import java.io.Serializable;
 
 /**
  * 媒体信息
- * @author Gao
+ * 用String存储url
+ * 文件文件都为url
  *
  */
 public class MediaInfo implements Serializable{
